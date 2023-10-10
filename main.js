@@ -1,4 +1,4 @@
-console.log("Hey")
+console.log("Hi bro")
 
 const values = [
     { heading: "TITLE HEADING", description: "Title description", date: "April 7, 2014", body: "Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sedultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.", comments: "12", image: "/images/woods.jpg" },
@@ -37,11 +37,15 @@ const createBlog = (heading, description, date, body, comments, image) => {
     )
 }
 
+console.log("HEY HEY")
+
 const blogs = document.querySelector("#blogs")
 
 values.forEach((item) => {
     const blog = createBlog(item.heading, item.description, item.date, item.body, item.comments, item.image);
     const blogParent = document.createElement("div");
+
+    console.log({ blog, blogParent })                     
 
     blogParent.innerHTML = blog;
     blogs.appendChild(blogParent);
