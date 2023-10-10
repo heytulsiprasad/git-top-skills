@@ -43,8 +43,6 @@ const data = [
   }
 ];
 
-// console.log(values);
-
 const createBlog = (heading, description, date, body, comments, image) => {
     return (
         `
