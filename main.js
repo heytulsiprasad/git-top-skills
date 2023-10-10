@@ -7,7 +7,7 @@ const data = [
     date: "July 15, 2022",
     body: "Embarking on a journey into the heart of nature is a breathtaking experience. From lush forests to serene lakes, there's a world of wonder waiting to be discovered. Get ready to immerse yourself in the beauty of the great outdoors.",
     comments: "23",
-    image: "/images/woods.jpg"
+    image: "https://picsum.photos/801/400"
   },
   {
     heading: "The Art of Cooking",
@@ -15,7 +15,7 @@ const data = [
     date: "March 9, 2022",
     body: "Cooking is not just a necessity; it's an art form. Whether you're a seasoned chef or a novice in the kitchen, there's always something new to learn. Join us on a culinary adventure as we explore flavors, techniques, and the joy of creating delicious meals.",
     comments: "37",
-    image: "/images/woods.jpg"
+    image: "https://picsum.photos/802/400"
   },
   {
     heading: "The Road Less Traveled",
@@ -23,7 +23,7 @@ const data = [
     date: "November 20, 2021",
     body: "Sometimes, the most memorable journeys are the ones that take you off the beaten path. Join us as we venture into lesser-known destinations, uncovering hidden gems, and embracing the beauty of serendipity.",
     comments: "15",
-    image: "/images/woods.jpg"
+    image: "https://picsum.photos/803/400"
   },
   {
     heading: "Capturing Moments in Time",
@@ -31,7 +31,7 @@ const data = [
     date: "May 5, 2021",
     body: "Photography is more than just snapping pictures; it's a way to freeze moments in time. Whether you're a professional photographer or a smartphone enthusiast, there's a story behind every click of the shutter.",
     comments: "42",
-    image: "/images/woods.jpg"
+    image: "https://picsum.photos/804/400"
   },
   {
     heading: "A Taste of History",
@@ -39,7 +39,7 @@ const data = [
     date: "February 14, 2021",
     body: "Delve into the past as we explore the culinary traditions of ancient civilizations. From Egyptian feasts to Roman banquets, we'll take you on a journey through time, one dish at a time.",
     comments: "28",
-    image: "/images/woods.jpg"
+    image: "https://picsum.photos/805/400"
   }
 ];
 
